@@ -1,0 +1,126 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.signIn {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("../../assets/bg.png");
+  background-size: 100% 102%;
+  background-repeat: no-repeat;
+}
+
+.content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* border: 2px solid blue; */
+
+}
+
+.content .left {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 450px;
+  height: fit-content;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.left .top {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* height: 60px; */
+  padding: 20px;
+  gap: 10px;
+  color: #285082;
+}
+
+.left .top .top_text{
+  font-size: medium;
+  /* border: 2px solid black; */
+  width: 71%;
+  padding: 5px;
+}
+
+.left form .input{
+  /* border: 2px solid black; */
+  padding: 6px;
+}
+.forget_pass {
+  text-align: end;
+  padding: 10px;
+}
+.forget_pass .anchor {
+  text-decoration: underline;
+  color: gray;
+  font-size: small;
+  cursor: pointer;
+}
+
+.button_box {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ic {
+  color: #123262;
+  /* padding-left: 5px; */
+  font-size: medium;
+}
+.ic_box {
+  margin-left: 1%;
+  width: 100px;
+  gap: 5px;
+  color: #285082;
+}
+.input_common {
+  border-radius: 5px;
+  border: 1.5px solid #0770c3;
+  width: 414px;
+  height: 40px;
+  outline: none;
+  padding: 10px;
+}
+
+.input_common::placeholder {
+  color: #bebcbc;
+}
+
+.input_common:focus {
+  border: 1px solid #0091ff;
+}
+
+.signIn_btn {
+  background-color: #0770c3;
+  width: 418px;
+  height: 42px;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.signIn_btn:hover {
+  background-color: #0b87e6;
+}
+.incorrect {
+  color: red;
+  font-size: small;
+  padding-top: 10px;
+  text-align: start;
+  padding-left: 10px;
+}

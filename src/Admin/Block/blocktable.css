@@ -1,0 +1,97 @@
+.userman-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.userman-top-box {
+  /* border: 2px solid black; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* padding-top: 1%; */
+  align-items: center;
+  padding: 5px;
+}
+
+.userman-table-contaner {
+  width: 100%;
+  margin-top: 2%;
+  padding-bottom: 3%;
+  border-radius: 5px;
+  background-color: white;
+  /* border: 2px solid black; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.userman-top-text {
+  font-size: small;
+  /* font-weight: bold; */
+  /* font-family: sans-serif; */
+  /* opacity: 0.5; */
+}
+.userman-inputt-box {
+  border: 2px solid black;
+  /* width: 50%; */
+  display: flex;
+  justify-content: right;
+  position: relative;
+}
+.userman-inputt {
+  /* width: 55%; */
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.269);
+  padding-left: 7%;
+  outline: none;
+}
+.helo {
+  position: absolute;
+  top: 7px;
+  left: 48%;
+  font-size: large;
+  opacity: 0.5;
+}
+.dashcom5-row:hover {
+  background-color: rgba(0, 0, 0, 0.038);
+  cursor: pointer;
+}
+.Uprofile {
+  display: none;
+}
+.Uprofile-box {
+  display: block;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.422);
+  height: 90.3%;
+  width: 85%;
+  right: 0px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sam-btn:hover {
+  background-color: #0770c3;
+  color: white;
+}
+
+.heading {
+  padding: 10px;
+  width: 100%;
+  font-size: large;
+  font-weight: bold;
+  /* border: 2px solid black; */
+}
+.block_popup {
+  background-color: red;
+  height: 42px;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 100px;
+}

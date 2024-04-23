@@ -1,0 +1,71 @@
+.user_manage {
+  width: 100%;
+  height: 91vh;
+  overflow-y: auto;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  /* border:2px solid black; */
+}
+
+.user_manage .user_manage_top {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.user_manage .user_manage_top .para {
+  font-size: small;
+  /* padding: 10px; */
+}
+
+.user_manage_table {
+  /* border: 2px solid black; */
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.user_manage_table .table_para {
+  padding-left: 5%;
+  font-weight: bold;
+  /* border: 2px solid black; */
+}
+.usermanage_btns_box {
+  display: flex;
+  justify-content: center;
+}
+
+.usermanage_btns {
+  /* border: 2px solid black; */
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.usermanage_btn{
+  width: 30%;
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+.Userman_btn{
+  width: 40%;
+  height: 38px;
+  background-color: #205295;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+.Userman_btn:hover,
+.Userman_btn:focus{
+ border: 3px solid #205295;
+ cursor: pointer;
+ background-color: transparent;
+ color: #205295;
+}

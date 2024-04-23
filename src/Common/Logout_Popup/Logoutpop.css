@@ -1,0 +1,67 @@
+body {
+  overflow: hidden;
+}
+.log_popup {
+  width: 83%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background-color: rgba(245, 245, 245, 0.778);
+  z-index: 6;
+  left: 18%;
+  /* left: ; */
+}
+
+.log_popup .log_popup_content {
+  height: 217px;
+  width: 419px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.log_popup .log_popup_content .log_text_content {
+  /* border: 2px solid black; */
+  padding: 10px;
+  width: 60%;
+  text-align: center;
+}
+
+.logout_yes {
+  background-color: #0770c3;
+  height: 42px;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 100px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.logout_No {
+  border: 2px solid #0770c3;
+  height: 42px;
+  font-weight: 700;
+  color: #0770c3;
+  border-radius: 5px;
+  background-color: transparent;
+  outline: none;
+  width: 100px;
+  cursor: pointer;
+}
+.log_btn_group {
+  width: 60%;
+
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}

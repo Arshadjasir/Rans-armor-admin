@@ -1,0 +1,48 @@
+
+.content_box{
+    width: 90%;
+    height: 90vh;
+    overflow-y: auto;
+    background-color:whitesmoke;
+    padding: 10px;
+}
+
+.content_box .settings{
+    padding: 10px;   
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.setting_box{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    height: 68vh;
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.menu_btn {
+    background-color: #0770c3;
+    width: 418px;
+    height: 42px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+  }
+  
+  .menu_btn:hover {
+    background-color: #0b87e6;
+  }
+
+.notification{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+}

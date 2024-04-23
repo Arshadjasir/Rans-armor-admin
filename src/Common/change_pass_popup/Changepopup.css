@@ -1,0 +1,101 @@
+.Change_popup {
+  width: 82%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: rgba(245, 245, 245, 0.778);
+  z-index: 1;
+  /* right: 0.8%; */
+  bottom: 0px;
+}
+.Change_popup .Change_popup_content {
+  height: 347px;
+  width: 419px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.change_input_container {
+  height: 80%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 2px solid black; */
+  padding-left: 4%;
+}
+.change_heaging {
+  display: flex;
+  gap: 10px;
+  color: #285082;
+}
+.change_input {
+  margin: 10px;
+  width: 85%;
+  height: 40px;
+  padding-left: 3%;
+  border-radius: 5px;
+  border: 2px solid #285082;
+  outline: none;
+}
+.change_submit_btn {
+  width: 120px;
+  height: 40px;
+  background-color: rgb(75, 145, 205);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.change_submit_btn:hover {
+  background-color: #285082;
+}
+.notmatch {
+  font-size: small;
+  color: red;
+  margin-left: 2%;
+  padding-bottom: 3%;
+}
+.pop_form_change {
+  background-color: #0770c3;
+  height: 42px;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 100px;
+}
+
+.change_pass_btn{
+  /* border: 2px solid; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 20px;
+}
+
+.change_submit_btn1 {
+  width: 120px;
+  height: 40px;
+  background-color: white;
+  color: rgb(75, 145, 205);
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 2px solid rgb(75, 145, 205);
+  cursor: pointer;
+}
+
+.change_submit_btn1:hover{
+  border: 2px solid rgb(22, 91, 148);
+  color:rgb(22, 91, 148) ;
+}

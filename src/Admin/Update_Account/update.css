@@ -1,0 +1,67 @@
+.create_acc{
+    width: 90%;
+    height: 90vh;
+    overflow-y: auto;
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* border: 2px solid black; */
+}
+
+.create_acc .account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.create_acc .account .input_content{
+     width: 465px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+    
+.create_acc .account .input_content .label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    padding: 5px;
+}
+
+.create_acc .account .input_content .input{
+    /* border: 2px solid black; */
+    padding: 5px;
+    width: 70%;
+}
+
+.signIn_btn {
+    background-color: #0770c3;
+    width: 418px;
+    height: 42px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+  }
+  
+  .signIn_btn:hover {
+    background-color: #0b87e6;
+  }
+
+.popup_button{
+    background-color:#0770C3;
+    /* width: 301px; */
+    height: 42px;
+    color: white;
+    border-radius:5px;
+    outline:none;
+    border: none;
+}
+
+.popup_button:hover{
+    background-color:#0b87e6;
+}

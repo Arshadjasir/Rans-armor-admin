@@ -1,0 +1,177 @@
+.settings-cotainer {
+  width: 90%;
+  overflow-x: auto;
+  background-color: whitesmoke;
+  height: 90vh;
+  padding: 10px;
+  /* border: 2px solid red; */
+}
+
+.Settings-btn-grp {
+  height: 80px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  /* border: 2px solid blue; */
+  padding: 5px;
+}
+
+.Settings-btn-box {
+  display: flex;
+  height: 50px;
+  justify-content: space-around;
+  width: 100%;
+  /* border: 2px solid blue; */
+}
+
+.Setting-in-btn {
+  width: 40%;
+  background-color: #0770c3;
+  color: white;
+  font-weight: 500;
+  font-size: medium;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.Setting-in-btn:hover {
+  border: 2px solid #0770c3;
+  color: #0770c3;
+  background-color: white;
+}
+.Setting-in-btn:focus {
+  border: 2px solid #0770c3;
+  color: #0770c3;
+  background-color: white;
+}
+
+.settings-top-text {
+  /* font-size: small; */
+  /* font-weight: 700; */
+  color: rgb(0, 0, 0);
+  /* margin-top: 1%;
+  padding-left: 2%; */
+  padding: 10px;
+  /* border: 2px solid red; */
+}
+
+.settings-box-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  /* border: 2px solid black; */
+}
+
+.settings-box {
+  background-color: white;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.253);
+  height: 100%;
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+  /* border: 2px solid black; */
+}
+
+.btn-switch {
+  height: fit-content;
+  margin-top: 0.3%;
+}
+
+.inside-notification {
+  padding-top: 0.8%;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.489);
+}
+
+.setting-text {
+  height: fit-content;
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.in_settings_box {
+  width: 97%;
+  height: 95%;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  /* border: 2px solid black; */
+  padding-left: 1%;
+}
+.setting-headings {
+  display: flex;
+  gap: 30px;
+  font-size: larger;
+  color: #315787;
+}
+.settings-input {
+  width: 35%;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 1.5%;
+  margin-left: 4.2%;
+  color: #315787;
+}
+.settings_input_box {
+  width: 70%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #315787;
+  color: #315787;
+  padding-left: 3%;
+  font-size: medium;
+  padding-bottom: 7px;
+}
+.label {
+  padding-top: 4px;
+}
+.settings_change_btn {
+  position: absolute;
+  right: 0px;
+  background-color: transparent;
+  border: none;
+  color: #315787;
+  font-weight: 600;
+  /* padding-bottom: 10px; */
+}
+.settings_change_btn:hover {
+  color: #0a2c57;
+  cursor: pointer;
+}
+.settings_About {
+  width: 90%;
+  color: #315787;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-top: 1.5%;
+  margin-left: 4.2%;
+  font-size: small;
+  font-weight: 400;
+  height: 100px;
+  padding-right: 2%;
+}
+.settings_About::-webkit-scrollbar {
+  width: 3px;
+  background-color: #315787;
+}
+.settings_fAQ {
+  width: 60%;
+  color: #315787;
+  margin-top: 1.5%;
+  margin-left: 4.2%;
+  border: 1px solid #31588765;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+}

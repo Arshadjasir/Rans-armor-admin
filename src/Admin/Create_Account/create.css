@@ -1,0 +1,108 @@
+
+.create_acc{
+    width: 100%;
+    height: 90vh;
+    overflow-y: auto;
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.create_acc .account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.title{
+    margin: 10px;
+}
+
+.create_acc .account .input_content{
+    /* border: 2px solid red; */
+     width: 465px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+    
+.create_acc .account .input_content .label{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    padding: 5px;
+}
+
+.create_acc .account .input_content .input{
+    /* border: 2px solid black; */
+    padding: 5px;
+    width: 70%;
+    outline: none;
+}
+
+.common_input{
+    width: 301px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.submit_button{
+    background-color:#0770C3;
+    width: 301px;
+    height: 42px;
+    color: white;
+    border-radius:5px;
+    outline:none;
+    border: none;
+}
+
+.submit_button:hover{
+    background-color:#0b87e6;
+}
+
+
+.popup_button{
+    background-color:#0770C3;
+    width: 100px;
+    /* height: 42px; */
+    color: white;
+    border-radius:5px;
+    outline:none;
+    border: none;
+    /* padding: 10px; */
+}
+
+.popup_button:hover{
+    background-color:#0b87e6;
+}
+
+.back_btn{
+    width:120px;
+    height: 37px;
+    border-radius: 5px;
+    outline:none;
+    background-color:white;
+    color:black;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    cursor: pointer;
+}
+.Progress{
+    /* border: 2px solid black; */
+    background-color:whitesmoke;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91vh;
+}

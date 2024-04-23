@@ -1,0 +1,48 @@
+.AdminProfile_container {
+  height: 91vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.AdminProfile_title {
+  padding: 30px;
+  width: 95%;
+}
+.AdminProfile_box {
+    background-color: white;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 70%;
+  border-radius: 10px;
+}
+.AdminProfile_toptext {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  width: 90%;
+  padding: 20px;
+}
+.AdminProfile_information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 2px solid black; */
+ height: 40%;
+}
+.AdminProfile_contact {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+.AdminProfile_Btns{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+}

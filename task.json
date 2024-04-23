@@ -1,0 +1,86 @@
+{
+  "Viewers": {
+    "Admin": 100,
+    "User": 200,
+    "Shared": 200,
+    "Share": [
+      {
+        "id": "120",
+        "Date": "20-02-2024",
+        "Template": "instagram",
+        "postId": "29"
+      },
+      {
+        "id": "121",
+        "Date": "20-02-2024",
+        "Template": "facebook",
+        "postId": "30"
+      }
+    ],
+    "Recently": [
+      {
+        "Sno": "1",
+        "Adminname": "Aj",
+        "Mailid": "Santhoase@gmail.com",
+        "ExpiryDate": "1/12/2020"
+      },
+      {
+        "Sno": "2",
+        "Adminname": "Arshad",
+        "Mailid": "Arshad@gmail.com",
+        "ExpiryDate": "15/12/2020"
+      },
+      {
+        "Sno": "3",
+        "Adminname": "jasir",
+        "Mailid": "jasir@gmail.com",
+        "ExpiryDate": "11/12/2020"
+      }
+    ],
+    "Piechart": {
+      "Facebook": 300,
+      "Instagram": 30,
+      "Youtube": 80,
+      "Friends": 60,
+      "Games": 90
+    }
+  },
+  "posts": [
+    {
+      "id": "919d",
+      "Name": "Arshad",
+      "Mail": "Arshad007@gmail.com",
+      "Password": "12345678",
+      "Expiry": "2024-03-28"
+    }
+  ],
+  "Admin": [
+    {
+      "Mail": "superadmin@gmail.com",
+      "Password": "superadmin123",
+      "id": "ef53"
+    }
+  ],
+  "User": [
+    {
+      "id": "d341",
+      "Name": "Arshad007",
+      "User": "1555555555",
+      "Mail": "user@gmail.com",
+      "Password": "user123",
+      "Whatsapp": "8860450907",
+      "Facebook": "Arshad007",
+      "Instagram": "Arshad007"
+    },
+    {
+      "id": "20ef",
+      "Name": "aj00822",
+      "User": "aj00822",
+      "Mail": "aj00822",
+      "Password": "aj00822",
+      "Whatsapp": "111111111111111111111111",
+      "Facebook": "aj00822",
+      "Instagram": "aj00822"
+    }
+  ]
+}

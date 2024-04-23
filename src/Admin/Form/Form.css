@@ -1,0 +1,118 @@
+.create_acc {
+  width: 100%;
+  height: 90vh;
+  /* overflow-y: auto; */
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  /* border: 2px solid black; */
+}
+
+.create_acc .account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* height: 100%; */
+  /* border: 2px solid black; */
+}
+
+.title {
+  padding: 5px;
+  margin: 20px;
+}
+
+.create_acc .account .input_content {
+  /* border: 2px solid red; */
+  width: 465px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.create_acc .account .input_content .label {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 30%;
+  padding: 10px;
+}
+
+.create_acc .account .input_content .input {
+  /* border: 2px solid black; */
+  padding: 5px;
+  width: 70%;
+  outline: none;
+}
+
+.common_input {
+  width: 301px;
+  height: 35px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.common_input::placeholder {
+  color: rgb(185, 7, 7);
+}
+
+.button {
+  background-color: #0770c3;
+  width: 301px;
+  height: 42px;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.button:hover {
+  background-color: #0b87e6;
+}
+
+.back_btn_box{
+  /* border: 2px solid black; */
+  width: 100%;
+  /* height: 10%; */
+  padding: 10px;
+}
+
+.back_btn {
+  width: 120px;
+  height: 37px;
+  border-radius: 5px;
+  outline: none;
+  background-color: white;
+  color: black;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  /* border: 2px solid black; */
+  cursor: pointer;
+}
+
+.error_content {
+  border: 2px solid black;
+  height: 20px;
+}
+.error_message {
+  color: red;
+  font-size: x-small;
+  padding: 5px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.already_exist{
+  color: red;
+  font-size: small;
+  padding: 5px;
+}

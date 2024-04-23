@@ -1,0 +1,27 @@
+.campaign{
+    width: 100%;
+    height: 90vh;
+    overflow-y: auto;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 30px;
+}
+
+.button{
+    background-color:#0770C3;
+    width: 418px;
+    height: 42px;
+    color: white;
+    border-radius:5px;
+    outline:none;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color:#0b87e6;
+}

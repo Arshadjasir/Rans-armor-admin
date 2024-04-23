@@ -1,0 +1,44 @@
+.Dash_card_container {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  width: 250px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 7px;
+}
+.Dash_card_box {
+  display: flex;
+}
+.Dash_card_title {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.Dash_card_btn {
+  color: #2c74b3;
+  text-align: center;
+  font-size: 15px;
+  padding: 2px;
+}
+.Dash_card_value {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #0a2647;
+}
+.Dash_card_heading {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: #7f7f7f;
+  width: 70px;
+  text-align: center;
+  border-left: 3px solid#2c74b3;
+}
+.Dash_card_btn:hover {
+  color: #195589;
+  cursor: pointer;
+}
