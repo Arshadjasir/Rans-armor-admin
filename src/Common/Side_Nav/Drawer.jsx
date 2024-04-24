@@ -29,6 +29,8 @@ import { GiPlainCircle } from "react-icons/gi";
 import Profileimg from "../../assets/man.png";
 import AccountMenu from "../../Admin/Profileclick/Profileclick";
 import { AdminProfile } from "../../Admin/AdminProfile/AdminProfile";
+import { Form } from "../../Admin/Form/Formuser";
+import { Training_card } from "../../Admin/Training/Training_card";
 
 const drawerWidth = 240;
 
@@ -126,7 +128,7 @@ export default function MiniDrawer() {
     return (
       <Box sx={{ display: "flex" }}>
         <CssBaseline />
-        <AppBar position="fixed" open={open}>
+        <AppBar position="fixed" open={open} >
           <Toolbar sx={{ backgroundColor: "#205295" }}>
             <IconButton
               color="inherit"
@@ -267,7 +269,10 @@ export default function MiniDrawer() {
         </Drawer>
         <Box component="main" sx={{ flexGrow: 1, p: 0 }}>
           <DrawerHeader />
-          <Routercomponent />
+          {/* <Routercomponent /> */}
+        {/* <Form/> */}
+        <Training_card/>
+
         </Box>
       </Box>
     );

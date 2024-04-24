@@ -21,7 +21,6 @@ function App() {
         {/* <div className="page"> */}
         {/* <Side_nav /> */}
         <MiniDrawer />
-
         {/* </div> */}
       </BrowserRouter>
     </>

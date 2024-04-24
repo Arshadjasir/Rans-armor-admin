@@ -1,118 +1,126 @@
-.create_acc {
-  width: 100%;
-  height: 90vh;
-  /* overflow-y: auto; */
-  background-color: whitesmoke;
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
+.create_Account{
   /* border: 2px solid black; */
+  height: 75vh;
+  width:75vw ;
+  padding: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.create_acc .account {
+.create_Account .heading{
+  /* border: 2px solid red; */
+  font-size: small;
+  font-weight: normal;
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #0A2647;
+}
+
+.create_Account form{
+ width: 100%;
+ height: 100%;
+}
+
+.create_Account form .input_Content{
+  /* border: 2px solid blue; */
+  overflow-y: auto;
+  height: 90%;
+  font-size: medium;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.create_Account form .input_Content .input_Box{
+  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  /* height: 100%; */
-  /* border: 2px solid black; */
-}
-
-.title {
-  padding: 5px;
-  margin: 20px;
-}
-
-.create_acc .account .input_content {
-  /* border: 2px solid red; */
-  width: 465px;
-  display: flex;
-  justify-content: space-between;
-  padding: 5px;
-}
-
-.create_acc .account .input_content .label {
-  /* border: 2px solid blue; */
-  display: flex;
-  justify-content: space-between;
-  align-items: start;
-  width: 30%;
+  /* text-align: center; */
+  /* flex-direction: column; */
+  width: 60%;
   padding: 10px;
 }
 
-.create_acc .account .input_content .input {
-  /* border: 2px solid black; */
-  padding: 5px;
-  width: 70%;
-  outline: none;
-}
-
-.common_input {
-  width: 301px;
-  height: 35px;
-  border: none;
-  outline: none;
-  border-radius: 5px;
-  padding: 10px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
-    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-}
-.common_input::placeholder {
-  color: rgb(185, 7, 7);
-}
-
-.button {
-  background-color: #0770c3;
-  width: 301px;
-  height: 42px;
-  color: white;
-  border-radius: 5px;
-  outline: none;
-  border: none;
-}
-
-.button:hover {
-  background-color: #0b87e6;
-}
-
-.back_btn_box{
+.create_Account form .input_Content .input_Box span{
   /* border: 2px solid black; */
   width: 100%;
-  /* height: 10%; */
+  display: flex;
+  justify-content: center;
+  /* align-items: start; */
+  flex-direction: column;
+  padding: 10px;
+  gap: 8px;
+  color: #0A2647;
+  /* font-size: ; */
+}
+
+.create_Account form .input_Content .input_Box span  .form_input{
+  height: 35px;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #0A2647;
+  border-radius: 3px;
+}
+
+.create_Account form .input_Content .input_Box span  .form_input2{
+  height: 35px;
+  width: 80%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #0A2647;
+  border-radius: 3px;
+}
+
+.create_Account form .input_Content .input_Box span .contact{
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.dropdown{
+  height: 35px;
+  width: 20%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #0A2647;
+  border-radius: 3px;
+  color: #0A2647;
+}
+
+
+.create_Account form .input_Content .input_Box .form_button{
+  /* border: 2px solid black; */
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
   padding: 10px;
 }
 
-.back_btn {
-  width: 120px;
-  height: 37px;
-  border-radius: 5px;
+.create_Account form .input_Content .input_Box .form_button .cancel_btn{
+  background-color: #D80000;
+  height: 35px;
+  width: 80px;
+  color: white;
   outline: none;
-  background-color: white;
-  color: black;
   border: none;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
-    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-  /* border: 2px solid black; */
-  cursor: pointer;
+  border-radius: 2px;
 }
 
-.error_content {
-  border: 2px solid black;
-  height: 20px;
-}
-.error_message {
-  color: red;
-  font-size: x-small;
-  padding: 5px;
-}
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
+.create_Account form .input_Content .input_Box .form_button .save_btn{
+  background-color: #205295;
+  height: 35px;
+  width: 80px;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 2px;
 
-.already_exist{
-  color: red;
-  font-size: small;
-  padding: 5px;
 }
