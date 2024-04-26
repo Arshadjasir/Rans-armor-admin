@@ -28,9 +28,10 @@ import { Btndropitems, Btnitems } from "./Drawerbuttons";
 import { GiPlainCircle } from "react-icons/gi";
 import Profileimg from "../../assets/man.png";
 import AccountMenu from "../../Admin/Profileclick/Profileclick";
-import { AdminProfile } from "../../Admin/AdminProfile/AdminProfile";
-import { Form } from "../../Admin/Form/Formuser";
-import { Training_card } from "../../Admin/Training/Training_card";
+import { Training_Campaigns } from "../../Admin/Awarness Program/Assign_Trainings/Assign_Training";
+import { Awarness_Dashbord } from "../../Admin/Awarness Program/Dashboard/Dashbord";
+import { Assign_form } from "../../Admin/Awarness Program/Assign_training_form/Assign_form";
+import { Assign_training } from "../../Admin/Awarness Program/Training_Campaings/Training_Campaings";
 
 const drawerWidth = 240;
 
@@ -128,7 +129,7 @@ export default function MiniDrawer() {
     return (
       <Box sx={{ display: "flex" }}>
         <CssBaseline />
-        <AppBar position="fixed" open={open} >
+        <AppBar position="fixed" open={open}>
           <Toolbar sx={{ backgroundColor: "#205295" }}>
             <IconButton
               color="inherit"
@@ -172,7 +173,6 @@ export default function MiniDrawer() {
                 {/* <img src={Profileimg} width={"42px"} height={"42px"} />
                 <b>Username</b> */}
                 <AccountMenu />
-
               </Typography>
             </div>
           </Toolbar>
@@ -269,10 +269,8 @@ export default function MiniDrawer() {
         </Drawer>
         <Box component="main" sx={{ flexGrow: 1, p: 0 }}>
           <DrawerHeader />
-          {/* <Routercomponent /> */}
-        {/* <Form/> */}
-        <Training_card/>
-
+          <Routercomponent />
+          {/* <Assign_training/> */}
         </Box>
       </Box>
     );

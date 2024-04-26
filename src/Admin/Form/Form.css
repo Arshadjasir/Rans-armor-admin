@@ -1,9 +1,6 @@
 .create_Account{
-  /* border: 2px solid black; */
-  height: 75vh;
-  width:75vw ;
-  padding: 10px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  height: 62vh;
+  width: 100% ;
 }
 
 .create_Account .heading{
@@ -23,15 +20,18 @@
 }
 
 .create_Account form .input_Content{
-  /* border: 2px solid blue; */
   overflow-y: auto;
   height: 90%;
   font-size: medium;
   display: flex;
-  justify-content: start;
+  justify-content:start;
   align-items: center;
   flex-direction: column;
   padding: 20px;
+
+}
+.input_Content::-webkit-scrollbar {
+    display: none;
 }
 
 .create_Account form .input_Content .input_Box{

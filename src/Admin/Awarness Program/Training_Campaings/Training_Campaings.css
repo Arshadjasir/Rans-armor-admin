@@ -1,0 +1,62 @@
+.Assign_filtergrp {
+  width: 93%;
+  /* border: 2px solid black; */
+  padding: 10px;
+}
+.Assign_filtergrp_box {
+  width: 20%;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-around;
+}
+.Assign_filterbtn {
+  width: max-content;
+  padding: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #205295;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+.Assign_filterbtn:hover,
+:focus {
+  background-color: white;
+  border: 2px solid #205295;
+  color: #205295;
+  padding: 9px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+.iconnn{
+  color: black;
+  position: absolute;
+}
+.no_data {
+  height: 50vh;
+}
+.No_data_box {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.no_data_btn {
+  width: max-content;
+  padding: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #205295;
+  border: none;
+  color: white;
+  border-radius: 3px;
+}
+.no_data_btn:hover {
+  background-color: #0f376d;
+  cursor: pointer;
+}
+.Nodata_value {
+  font-size: larger;
+  text-align: center;
+  font-weight: bolder;
+  color: #b7c9e1;
+}

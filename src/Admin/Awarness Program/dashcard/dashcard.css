@@ -1,0 +1,27 @@
+.dashcard_container {
+  width: 20%;
+  /* height: 80px; */
+  padding: 14px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  background-color: white;
+  border-radius: 7px;
+}
+.dashcard_iconbox {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  color: #7f7f7f;
+}
+.dashcard_value {
+  font-size: 25px;
+  font-weight: bolder;
+  color: #0a2647;
+  text-align: center;
+  padding-top: 5px;
+}
+.dashcard_icon {
+  font-size: large;
+  color: #0a2647;
+}

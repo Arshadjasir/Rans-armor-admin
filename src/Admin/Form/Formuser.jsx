@@ -157,11 +157,11 @@ export const Form = ({
         </div>
         <div className="input_Box">
           <div className="form_button">
-            <Button value={"Cancel"} className={"cancel_btn"}/>
+            <Button value={"Cancel"} className={"cancel_btn"} onclick={(e)=>{e.preventDefault()}}/>
             <Button value={"Save"} className={"save_btn"}/>
           </div>
         </div>
-      </div>
+       </div>
       </form>
     </div>
     // <div className="create_acc">

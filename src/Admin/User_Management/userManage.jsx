@@ -11,6 +11,7 @@ import axios from "axios";
 import { searchFun } from "../../Common/serarchfunction/searchfunction";
 import { Endpoint } from "../../Common/Endpoint/Endpoint";
 import { Button } from "../../Common/Button/button";
+import { Create } from "../Create_Account/create";
 
 export const UserManage = () => {
   const navigate = useNavigate();
@@ -18,6 +19,7 @@ export const UserManage = () => {
   const [tabval, settabval] = useState([]);
   const [dupli, setDupli] = useState([]);
   const [Profile, setProfile] = useState(false);
+  const [page,setpage]=useState("table")
   useEffect(() => {
     const Email = localStorage.getItem("Mail");
     const variable = async () => {
@@ -73,20 +75,29 @@ export const UserManage = () => {
       </div>
       <div className="usermanage_btns_box">
         <div className="usermanage_btns">
-          <Button letter={"Add User"} className={"Userman_btn"} />
+          <Button
+            letter={"Add User"}
+            className={"Userman_btn"}
+            onclick={() => {
+              setpage("Add");
+            }}
+          />
           <Button letter={"Bulk Import"} className={"Userman_btn"} />
         </div>
       </div>
       <div className="user_manage_table">
-        <Tablecom
-          setId={setId}
-          valtab={valtab}
-          td={dupli}
-          onclick={() => {
-            setProfile(true);
-          }}
-          value={"User Management"}
-        />
+        {page == "table" && (
+          <Tablecom
+            setId={setId}
+            valtab={valtab}
+            td={dupli}
+            onclick={() => {
+              setProfile(true);
+            }}
+            value={"User Management"}
+          />
+        )}
+        {page == "Add" && <Create />}
       </div>
       {Profile == true && <UserProfile setProfile={setProfile} Clickval={id} />}
     </div>

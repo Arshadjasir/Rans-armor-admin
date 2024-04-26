@@ -29,10 +29,18 @@ import { blocktable } from "../../Admin/Block/blocktable.jsx";
 import { Form_Popup } from "../form_popup/form_popup.jsx";
 import { AdminProfile } from "../../Admin/AdminProfile/AdminProfile.jsx";
 import { Manage_group } from "../../Admin/User_Management/Manage_group.jsx";
+import { All_campaigns } from "../../Admin/Campaings_dropdown/All_campaigns.jsx";
+import { Active_campaigns } from "../../Admin/Campaings_dropdown/Active_campaigns.jsx";
+import { Completed_campaigns } from "../../Admin/Campaings_dropdown/completed_campaigns.jsx";
+import { Training_Campaigns } from "../../Admin/Awarness Program/Assign_Trainings/Assign_Training.jsx";
+import { Awarness_Dashbord } from "../../Admin/Awarness Program/Dashboard/Dashbord.jsx";
+import { Deptwise_report } from "../../Admin/Reports_list/Deptwise_report.jsx";
+import { Desigwise_report } from "../../Admin/Reports_list/Desigwise_report.jsx";
+import { Groupwise_report } from "../../Admin/Reports_list/Groupwise_report.jsx";
+import { Assign_form } from "../../Admin/Awarness Program/Assign_training_form/Assign_form.jsx";
+import { Assign_training } from "../../Admin/Awarness Program/Training_Campaings/Training_Campaings.jsx";
 
 export const Routercomponent = () => {
-
-
   const routes = [
     {
       path: Path.home,
@@ -175,6 +183,46 @@ export const Routercomponent = () => {
     {
       path: Path.Manage_Group,
       Component: Manage_group,
+    },
+    {
+      path: Path.all_campaigns,
+      Component: All_campaigns,
+    },
+    {
+      path: Path.active_campaigns,
+      Component: Active_campaigns,
+    },
+    {
+      path: Path.completed_campaigns,
+      Component: Completed_campaigns,
+    },
+    {
+      path: Path.training_campaigns,
+      Component: Training_Campaigns,
+    },
+    {
+      path: Path.awarness_dashboard,
+      Component: Awarness_Dashbord,
+    },
+    {
+      path: Path.report_dept,
+      Component: Deptwise_report,
+    },
+    {
+      path: Path.report_desig,
+      Component: Desigwise_report,
+    },
+    {
+      path: Path.report_group,
+      Component: Groupwise_report,
+    },
+    {
+      path: Path.assign_form,
+      Component: Assign_form,
+    },
+    {
+      path: Path.assign_traing,
+      Component: Assign_training,
     },
   ];
   return (

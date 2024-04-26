@@ -1,4 +1,4 @@
-.user_manage {
+.Awar_dash {
   width: 100%;
   height: 91vh;
   overflow-y: auto;
@@ -8,19 +8,19 @@
   padding: 15px;
 }
 
-.user_manage .user_manage_top {
+.Awar_dash .Awar_dash_top {
   /* border: 2px solid black; */
   display: flex;
   justify-content: space-between;
   padding: 10px;
 }
 
-.user_manage .user_manage_top .para {
+.Awar_dash .Awar_dash_top .para {
   font-size: small;
   /* padding: 10px; */
 }
 
-.user_manage_table {
+.Awar_dash_table {
   /* border: 2px solid black; */
   padding: 15px;
   margin-top: 10px;
@@ -30,7 +30,7 @@
     rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 
-.user_manage_table .table_para {
+.Awar_dash_table .table_para {
   padding-left: 5%;
   font-weight: bold;
   /* border: 2px solid black; */
@@ -39,21 +39,27 @@
   display: flex;
   justify-content: center;
 }
-
-.usermanage_btns {
+.Awar_dash_btns_box{
+  
+  width: 96%;
+  display: flex;
+  justify-content: center;
+}
+.Awar_dash_btns {
   /* border: 2px solid black; */
-  width: 30%;
+  padding: 20px;
+  width:89%;
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
 }
-.usermanage_btn{
+.Awar_dash_btn{
   width: 30%;
   text-align: center;
   padding-bottom: 20px;
 
 }
-.Userman_btn{
+.Awar_dash_btn{
   width: 40%;
   height: 38px;
   background-color: #205295;
@@ -61,8 +67,8 @@
   color: white;
   border-radius: 4px;
 }
-.Userman_btn:hover,
-.Userman_btn:focus{
+.Awar_dash_btn:hover,
+.Awar_dash_btn:focus{
  border: 3px solid #205295;
  cursor: pointer;
  background-color: transparent;

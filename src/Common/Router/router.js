@@ -39,6 +39,16 @@ export const Path = {
   admin_send_table_id: "/admin/send_attach_table/:clickid",
   admin_form_popup: "/admin/form_popup",
   admin_Profile: "/admin/Profile",
+  all_campaigns: "/admin/all_campaigns",
+  active_campaigns: "/admin/active_campaigns",
+  completed_campaigns: "/admin/completed_campaigns",
+  training_campaigns: "/admin/training_campaigns",
+  awarness_dashboard: "/admin/awarness_dashboard",
+  report_group: "/admin/Group_wise",
+  report_desig: "/admin/Designation_wise",
+  report_dept: "/admin/Department_wise",
+  assign_form: "/admin/assign_form",
+  assign_traing:"/admin/assign_training",
 
   // *****************
   // *****************user

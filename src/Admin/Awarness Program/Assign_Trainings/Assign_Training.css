@@ -1,0 +1,75 @@
+.Training_containerr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+  background-color: whitesmoke;
+}
+.training_manage_top {
+  /* border: 2px solid black; */
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  padding: 15px;
+}
+.traing_para {
+  font-size: small;
+}
+.Trainig_card_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 85vh;
+  /* overflow-x: scroll; */
+  /* border: 2px solid black; */
+}
+
+.Traing_cards {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4%;
+  padding: 25px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  border-radius: 5px;
+  /* padding: 20px; */
+}
+
+.Traing_cards::-webkit-scrollbar {
+    width: 5px; 
+}
+
+
+.Traing_cards::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 2px; 
+}
+.float_btnn{
+  border: 1px solid rgba(0, 0, 0, 0.256);
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  bottom: 0px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.floatbtn_sub{
+  height: 40px;
+  width: 15%;
+  background-color: #144272;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.floatbtn_sub:hover{
+  cursor: pointer;
+  background-color: #3c6591;
+  color: white;
+  border: none;
+}
