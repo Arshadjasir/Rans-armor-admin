@@ -1,0 +1,89 @@
+.Avarness {
+    width: 100%;
+    height: 91vh;
+    overflow-y: auto;
+    /* background-color: whitesmoke; */
+    display: flex;
+    flex-direction: column;
+    /* padding: 15px; */
+    /* border: 2px solid black; */
+
+  }
+
+  .Avarness .Avareness_fulltop{
+    /* border: 2px solid black; */
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .Avarness .Avareness_fulltop .Avarness_top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .Avarness .Avareness_fulltop .Avarness_top .para {
+    font-size: small;
+    /* padding: 10px; */
+    color: gray;
+  }
+
+  
+.posters{
+    /* border: 2px solid black; */
+   display: flex;
+   justify-content:space-around;
+   flex-wrap: wrap;
+   align-items: center;
+   /* gap:inherit; */
+   padding: 15px;
+   row-gap: 15px;
+  }
+
+  .poster_img{
+    height: 250px;
+  }
+
+  .Popup{
+    /* border: 2px solid rgb(254, 13, 13); */
+    position:absolute;
+    /* bottom: 50%; */
+    top: 10%;
+    width:100%;
+    height: 90%;
+    /* padding: 20px; */
+    background-color: #f4f4f499;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popup_image{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .popup_buttons{
+    /* border: 2px solid black; */
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+   }
+
+  .poster_bbtn{
+    height: 30px;
+    width: 100px;
+    background-color: #144272;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+  }

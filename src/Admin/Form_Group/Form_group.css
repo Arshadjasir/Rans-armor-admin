@@ -1,0 +1,177 @@
+.create_Account{
+    height: 62vh;
+    width: 100% ;
+    /* border: 2px solid black; */
+  }
+  
+  .create_Account .heading{
+    /* border: 2px solid red; */
+    font-size: small;
+    font-weight: normal;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #0A2647;
+  }
+  
+  .create_Account form{
+   width: 100%;
+   height: 100%;
+  }
+  
+  .create_Account form .input_Content{
+    overflow-y: auto;
+    height: 90%;
+    font-size: medium;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  
+  }
+  .input_Content::-webkit-scrollbar {
+      display: none;
+  }
+  
+  .create_Account form .input_Content .input_Box{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    /* flex-direction: column; */
+    width: 60%;
+    padding: 10px;
+  }
+  
+  .create_Account form .input_Content .input_Box span{
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: start; */
+    flex-direction: column;
+    padding: 10px;
+    gap: 8px;
+    color: #0A2647;
+    /* font-size: ; */
+  }
+  
+  .create_Account form .input_Content .input_Box span  .form_input{
+    height: 35px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #0A2647;
+    border-radius: 3px;
+  }
+  
+  .create_Account form .input_Content .input_Box span  .form_input2{
+    height: 35px;
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #0A2647;
+    border-radius: 3px;
+  }
+  
+  .create_Account form .input_Content .input_Box span .contact{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .create_Account form .input_Content .input_Box_check{
+      /* border: 2px solid red; */
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      /* text-align: center; */
+      /* flex-direction: column; */
+      width: 60%;
+      padding: 10px;
+  }
+
+  .create_Account form .input_Content .input_Box_check .check{
+    /* border: 2px solid black; */
+    width: 150PX;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color:#0A2647 ;
+    gap: 10px; 
+  }
+
+  .create_Account form .input_Content .input_Box_radio{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    text-align: start;
+    width: 60%;
+    padding: 20px;
+}
+
+.create_Account form .input_Content .input_Box_radio span{
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    gap: 20%;
+    /* padding: 10px; */
+}
+
+.create_Account form .input_Content .input_Box_radio span .radio{
+    display: flex;
+    /* border: 2px solid black; */
+    width: 100px;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+  .dropdown{
+    height: 35px;
+    width: 20%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #0A2647;
+    border-radius: 3px;
+    color: #0A2647;
+  }
+  
+  
+  .create_Account form .input_Content .input_Box .form_button{
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .create_Account form .input_Content .input_Box .form_button .cancel_btn{
+    background-color: #D80000;
+    height: 35px;
+    width: 80px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+  }
+  
+  .create_Account form .input_Content .input_Box .form_button .save_btn{
+    background-color: #205295;
+    height: 35px;
+    width: 80px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+  
+  }

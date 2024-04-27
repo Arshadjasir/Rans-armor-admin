@@ -1,10 +1,8 @@
 import "./App.css";
-
 import Side_nav from "./Common/Side_Nav/side_nav";
 import { BrowserRouter } from "react-router-dom";
 import { Routercomponent } from "./Common/Router/Routercomponent";
 import Top_Nav from "./Common/Top_Nav/top_nav";
-
 import { createContext, useContext, useEffect, useState } from "react";
 import MiniDrawer from "./Common/Side_Nav/Drawer";
 

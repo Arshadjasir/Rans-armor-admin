@@ -32,6 +32,8 @@ import { Training_Campaigns } from "../../Admin/Awarness Program/Assign_Training
 import { Awarness_Dashbord } from "../../Admin/Awarness Program/Dashboard/Dashbord";
 import { Assign_form } from "../../Admin/Awarness Program/Assign_training_form/Assign_form";
 import { Assign_training } from "../../Admin/Awarness Program/Training_Campaings/Training_Campaings";
+import { Avarness_poster } from "../../Admin/Awarness Program/Avarness_Posters/Avarness_poster";
+import { Form_Group } from "../../Admin/Form_Group/Form_group";
 
 const drawerWidth = 240;
 
@@ -269,8 +271,10 @@ export default function MiniDrawer() {
         </Drawer>
         <Box component="main" sx={{ flexGrow: 1, p: 0 }}>
           <DrawerHeader />
-          <Routercomponent />
+          {/* <Routercomponent /> */}
+          {/* <Avarness_poster/> */}
           {/* <Assign_training/> */}
+          <Form_Group/>
         </Box>
       </Box>
     );
