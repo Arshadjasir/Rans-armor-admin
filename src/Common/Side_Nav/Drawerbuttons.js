@@ -135,18 +135,18 @@ export const Btndropitems = [
     parentname: "Templates",
     Btnname: "Awarness Template",
     Icon: HiSpeakerphone,
-    path: Path.Campaign,
+    path: Path.aware_template,
   },
   {
     parentname: "Templates",
     Btnname: "My Template",
     Icon: HiSpeakerphone,
-    path: Path.Campaign,
+    path: Path.my_template,
   },
   {
     parentname: "Templates",
     Btnname: "System Template",
     Icon: HiSpeakerphone,
-    path: Path.Campaign,
+    path: Path.system_template,
   },
 ];

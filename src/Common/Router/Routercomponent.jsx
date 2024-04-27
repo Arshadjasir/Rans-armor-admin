@@ -39,6 +39,9 @@ import { Desigwise_report } from "../../Admin/Reports_list/Desigwise_report.jsx"
 import { Groupwise_report } from "../../Admin/Reports_list/Groupwise_report.jsx";
 import { Assign_form } from "../../Admin/Awarness Program/Assign_training_form/Assign_form.jsx";
 import { Assign_training } from "../../Admin/Awarness Program/Training_Campaings/Training_Campaings.jsx";
+import { My_template } from "../../Admin/Templates/My_template.jsx";
+import { System_template } from "../../Admin/Templates/System_Template.jsx";
+import { Aware } from "../../Admin/Templates/Aware.jsx";
 
 export const Routercomponent = () => {
   const routes = [
@@ -223,6 +226,18 @@ export const Routercomponent = () => {
     {
       path: Path.assign_traing,
       Component: Assign_training,
+    },
+    {
+      path: Path.my_template,
+      Component: My_template,
+    },
+    {
+      path: Path.system_template,
+      Component: System_template,
+    },
+    {
+      path: Path.aware_template,
+      Component: Aware,
     },
   ];
   return (

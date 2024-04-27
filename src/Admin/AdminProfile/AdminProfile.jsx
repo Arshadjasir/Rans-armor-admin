@@ -1,10 +1,11 @@
-import React from 'react'
-import { Para } from '../../Common/Para/Para'
-import { Button } from '../../Common/Button/button'
-import "./AdminProfile.css"
-import Profile from "../../assets/man.png"
+import React, { useState } from "react";
+import { Para } from "../../Common/Para/Para";
+import { Button } from "../../Common/Button/button";
+import "./AdminProfile.css";
+import Profile from "../../assets/man.png";
 
 export const AdminProfile = () => {
+  const [edit, setedit] = useState(false);
 
   return (
     <>
@@ -15,10 +16,27 @@ export const AdminProfile = () => {
         <div className="AdminProfile_box">
           <div className="AdminProfile_toptext">
             <Para value={"My Profile"} />
-            <div className="AdminProfile_Btns" >
-              <Button letter={"Edit"} />
-              <Button letter={"Save"} />
-              <Button letter={"Cancel"} />
+            <div className="AdminProfile_Btns">
+              {edit ? (
+                <>
+                  <Button letter={"Save"} className={"AdminProfile_btn"} />
+                  <Button
+                    letter={"Cancel"}
+                    className={"AdminProfile_btn_can"}
+                    onclick={() => {
+                      setedit(false);
+                    }}
+                  />
+                </>
+              ) : (
+                <Button
+                  letter={"Edit"}
+                  className={"AdminProfile_btn"}
+                  onclick={() => {
+                    setedit(true);
+                  }}
+                />
+              )}
             </div>
           </div>
           <div className="AdminProfile_information">
@@ -45,10 +63,10 @@ export const AdminProfile = () => {
             </div>
           </div>
           <div>
-            <Button letter={"Logout"} />
+            <Button letter={"Logout"} className={"AdminProfile_logout"} />
           </div>
         </div>
       </div>
     </>
   );
-}
+};

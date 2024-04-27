@@ -1,67 +1,88 @@
-.create_acc{
-    width: 90%;
-    height: 90vh;
-    overflow-y: auto;
-    background-color:whitesmoke;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    /* border: 2px solid black; */
+.create_acc {
+  width: 90%;
+  height: 90vh;
+  overflow-y: auto;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  /* border: 2px solid black; */
 }
 
-.create_acc .account{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100%;
+.create_acc .account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
 }
 
-.create_acc .account .input_content{
-     width: 465px;
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
-}
-    
-.create_acc .account .input_content .label{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 30%;
-    padding: 5px;
+.create_acc .account .input_content {
+  width: 465px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
 }
 
-.create_acc .account .input_content .input{
-    /* border: 2px solid black; */
-    padding: 5px;
-    width: 70%;
+.create_acc .account .input_content .label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  padding: 5px;
+}
+
+.create_acc .account .input_content .input {
+  /* border: 2px solid black; */
+  padding: 5px;
+  width: 70%;
 }
 
 .signIn_btn {
-    background-color: #0770c3;
-    width: 418px;
-    height: 42px;
-    color: white;
-    border-radius: 5px;
-    outline: none;
-    border: none;
-  }
-  
-  .signIn_btn:hover {
-    background-color: #0b87e6;
-  }
-
-.popup_button{
-    background-color:#0770C3;
-    /* width: 301px; */
-    height: 42px;
-    color: white;
-    border-radius:5px;
-    outline:none;
-    border: none;
+  background-color: #0770c3;
+  width: 418px;
+  height: 42px;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
 }
 
-.popup_button:hover{
-    background-color:#0b87e6;
+.signIn_btn:hover {
+  background-color: #0b87e6;
+}
+
+.popup_button {
+  background-color: #0770c3;
+  /* width: 301px; */
+  height: 42px;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.popup_button:hover {
+  background-color: #0b87e6;
+}
+.Update_user_container {
+  /* border: 2px solid black; */
+  background-color: whitesmoke;
+  height: 91vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.updateform_container {
+  height: 80vh;
+  width: 80%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  border-radius: 7px;
+}
+.update_breadcrumbs {
+  font-size: small;
+  padding: 20px;
 }

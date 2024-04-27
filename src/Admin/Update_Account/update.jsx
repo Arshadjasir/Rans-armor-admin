@@ -3,7 +3,8 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Form } from "../Form/Formuser";
 import { Endpoint } from "../../Common/Endpoint/Endpoint";
-
+import "./update.css"
+import { Para } from "../../Common/Para/Para";
 export const UserUpdate = () => {
   const [currentval, setcurrentval] = useState({
     Name: "",
@@ -89,25 +90,33 @@ export const UserUpdate = () => {
   };
   return (
     <>
-      {loaded ? (
-        <Form
-          setpopup={setpopup}
-          sendvalue={setinputvalue}
-          ithanda={true}
-          valcoming={currentval}
-          value={"User Update"}
-          onclick={afterupdate}
-          placeholder={placeholder}
-          // popupval={"Successfully Updated"}
-          popup={popup}
-          letter={"Update"}
-          text={"You have updated the account !"}
-          Company={Company}
-          incorrect={incorrect}
-        />
-      ) : (
-        <h1>Loading</h1>
-      )}
+      <div className="Update_user_container">
+        <div style={{width:"95%"}}> 
+          <Para value={"User > Update user"} className={"update_breadcrumbs"}/>
+        </div>
+          <div className="updateform_container">
+
+        {loaded ? (
+          <Form
+            setpopup={setpopup}
+            sendvalue={setinputvalue}
+            ithanda={true}
+            valcoming={currentval}
+            value={"User Update"}
+            onclick={afterupdate}
+            placeholder={placeholder}
+            // popupval={"Successfully Updated"}
+            popup={popup}
+            letter={"Update"}
+            text={"You have updated the account !"}
+            Company={Company}
+            incorrect={incorrect}
+          />
+        ) : (
+          <h1>Loading</h1>
+        )}
+        </div>
+      </div>
     </>
   );
 };

@@ -23,7 +23,7 @@
 .AdminProfile_toptext {
   display: flex;
   justify-content: space-between;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: 90%;
   padding: 20px;
 }
@@ -41,8 +41,33 @@
   width: 90%;
 }
 .AdminProfile_Btns{
-    width: 35%;
+    width: 25%;
     display: flex;
-    justify-content: space-around;
-    border: 2px solid black;
+    justify-content: center;
+    gap: 20px;
+}
+.AdminProfile_btn{
+  background-color: #144272;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100px;
+  border-radius: 5px;
+}
+.AdminProfile_btn_can{
+  background-color: white;
+  color: white;
+  padding: 10px;
+  border: 2px solid #144272;
+  width: 100px;
+  border-radius: 5px;
+  color: #144272;
+}
+.AdminProfile_logout{
+  background-color: #144272;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
 }

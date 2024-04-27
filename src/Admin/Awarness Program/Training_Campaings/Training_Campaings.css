@@ -19,7 +19,7 @@
   border: none;
   border-radius: 3px;
 }
-.Assign_filterbtn:hover,
+/* .Assign_filterbtn:hover,
 :focus {
   background-color: white;
   border: 2px solid #205295;
@@ -27,7 +27,7 @@
   padding: 9px;
   padding-left: 13px;
   padding-right: 13px;
-}
+} */
 .iconnn{
   color: black;
   position: absolute;

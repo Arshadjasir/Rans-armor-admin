@@ -28,12 +28,15 @@ import { Btndropitems, Btnitems } from "./Drawerbuttons";
 import { GiPlainCircle } from "react-icons/gi";
 import Profileimg from "../../assets/man.png";
 import AccountMenu from "../../Admin/Profileclick/Profileclick";
+<<<<<<< Updated upstream
 import { Training_Campaigns } from "../../Admin/Awarness Program/Assign_Trainings/Assign_Training";
 import { Awarness_Dashbord } from "../../Admin/Awarness Program/Dashboard/Dashbord";
 import { Assign_form } from "../../Admin/Awarness Program/Assign_training_form/Assign_form";
 import { Assign_training } from "../../Admin/Awarness Program/Training_Campaings/Training_Campaings";
 import { Avarness_poster } from "../../Admin/Awarness Program/Avarness_Posters/Avarness_poster";
 import { Form_Group } from "../../Admin/Form_Group/Form_group";
+=======
+>>>>>>> Stashed changes
 
 const drawerWidth = 240;
 
@@ -257,8 +260,7 @@ export default function MiniDrawer() {
                                   />
                                 </ListItemIcon>
                               </div>
-
-                              <ListItemText primary={e.Btnname} />
+                              {open && <ListItemText primary={e.Btnname} />}
                             </ListItemButton>
                           )
                       )}
@@ -271,10 +273,15 @@ export default function MiniDrawer() {
         </Drawer>
         <Box component="main" sx={{ flexGrow: 1, p: 0 }}>
           <DrawerHeader />
+<<<<<<< Updated upstream
           {/* <Routercomponent /> */}
           {/* <Avarness_poster/> */}
           {/* <Assign_training/> */}
           <Form_Group/>
+=======
+          <Routercomponent />
+          {/* <Aware_template/> */}
+>>>>>>> Stashed changes
         </Box>
       </Box>
     );

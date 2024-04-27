@@ -48,7 +48,10 @@ export const Path = {
   report_desig: "/admin/Designation_wise",
   report_dept: "/admin/Department_wise",
   assign_form: "/admin/assign_form",
-  assign_traing:"/admin/assign_training",
+  assign_traing: "/admin/assign_training",
+  my_template: "/admin/my_template",
+  aware_template: "/admin/aware_template",
+  system_template: "/admin/system_template",
 
   // *****************
   // *****************user
